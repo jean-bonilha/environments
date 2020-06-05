@@ -46,8 +46,8 @@ cp .tmux/.tmux.conf.local .
 cd .vim
 git checkout heavenly
 git submodule init && git submodule update
-mkdir -p ~/Web/src
-cd Web/src && git clone https://github.com/laradock/laradock.git
+mkdir -p ~/Web/srv
+cd Web/srv && git clone https://github.com/laradock/laradock.git
 cd laradock
 git checkout v9.7
 rm -rf .git
@@ -62,8 +62,8 @@ git status
 git commit -m 'Cria backup das configuracoes de ambiente'
 mkdir -p ~/Web/pro/laravel
 cd laravel/
-pwd >> ~/Web/src/laradock/path-to-laravel-project-folder
-cd ~/Web/src/laradock
+pwd >> ~/Web/srv/laradock/path-to-laravel-project-folder
+cd ~/Web/srv/laradock
 git status
 docker-compose up -d nginx mysql phpmyadmin workspace 
 docker-compose ps
