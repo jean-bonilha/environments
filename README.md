@@ -3,6 +3,7 @@
 ---
 
 ```shell
+# first make setup on this tutorial https://www.digitalocean.com/community/tutorials/ssh-essentials-working-with-ssh-servers-clients-and-keys
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
