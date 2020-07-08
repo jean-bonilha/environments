@@ -10,7 +10,7 @@ curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
 sudo apt-key fingerprint 0EBFCD88
 echo -e "\ndeb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable" | sudo tee -a /etc/apt/sources.list
 sudo apt update && sudo apt upgrade -y
-sudo apt install git vim tmux xclip apt-transport-https ca-certificates curl gnupg-agent software-properties-common yarn build-essential libssl-dev docker-ce docker-ce-cli containerd.io -y
+sudo apt install git vim tmux tmuxinator xclip apt-transport-https ca-certificates curl gnupg-agent software-properties-common yarn build-essential libssl-dev docker-ce docker-ce-cli containerd.io -y
 sudo docker run hello-world
 sudo groupadd docker
 sudo usermod -aG docker $USER
