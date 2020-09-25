@@ -70,7 +70,7 @@ git status
 git commit -m 'Cria backup das configuracoes de ambiente'
 mkdir -p ~/Web/pro/laravel
 cd ~/Web/pro/laravel
-pwd >> ~/Web/srv/laradock/path-to-laravel-project-folder
+pwd >> ~/Web/srv/laradock/.env
 cd ~/Web/srv/laradock
 git status
 docker-compose up -d nginx mysql phpmyadmin workspace 
