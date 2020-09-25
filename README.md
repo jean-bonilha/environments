@@ -53,6 +53,7 @@ cp .tmux/.tmux.conf.local .
 cd .vim
 git checkout heavenly
 git submodule init && git submodule update
+cd
 mkdir -p ~/Web/srv
 cd Web/srv && git clone https://github.com/laradock/laradock.git
 cd laradock
