@@ -69,7 +69,7 @@ git a .
 git status
 git commit -m 'Cria backup das configuracoes de ambiente'
 mkdir -p ~/Web/pro/laravel
-cd laravel/
+cd ~/Web/pro/laravel
 pwd >> ~/Web/srv/laradock/path-to-laravel-project-folder
 cd ~/Web/srv/laradock
 git status
