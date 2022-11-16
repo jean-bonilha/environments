@@ -50,7 +50,7 @@ echo '"enable all function in all mode.' >> .vimrc.local
 echo "let g:user_emmet_expandabbr_key='<Tab>'" >> .vimrc.local
 cp .tmux/.tmux.conf.local .
 cd .vim
-git checkout heavenly
+git checkout heavenly2
 git submodule init && git submodule update
 cd
 mkdir -p ~/Web/srv
