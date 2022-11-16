@@ -21,7 +21,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 git clone --bare https://github.com/jean-bonilha/.dotfiles.git $HOME/.dotfiles
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 dotfiles config --local status.showUntrackedFiles no
-curl -o- https://raw.githubusercontent.com/junegunn/fzf/0.35.0/install | sh
+curl -o- https://raw.githubusercontent.com/junegunn/fzf/0.35.0/install | bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 nvm install 8.17.0
 nvm install 10.19.0
